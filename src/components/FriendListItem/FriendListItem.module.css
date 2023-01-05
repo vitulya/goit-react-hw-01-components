@@ -12,6 +12,14 @@
     height: 30px;
     border-radius: 50%;
 }
+
+.online{
+    background-color: green;
+}
+
+.offline{
+    background-color: red;
+}
 .avatar{
     border: 1px solid grey;
     padding: 5px;
