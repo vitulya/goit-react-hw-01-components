@@ -1,16 +1,8 @@
 import css from './Statistics.module.css';
 import PropTypes from 'prop-types';
-import {makeRandomBackgroundColor} from '../../makeRandomBackgroundColor.js';
+import {makeRandomBackgroundColor} from '../../helpers/makeRandomBackgroundColor.js';
 
 export const Statistics = ({ title, stats }) => {
-
-
-//   const makeRandomBackgroundColor = () => {
-//     const color = `#${Math.floor(Math.random() * 16777215)
-//         .toString(16)
-//         .padStart(6, 0)}`;
-//     return {backgroundColor: color}
-//   }
 
   return (
     <section className={css.statistics}>
